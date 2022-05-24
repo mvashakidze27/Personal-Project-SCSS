@@ -1,3 +1,49 @@
-.container-1 {
-    width: 750px;
+@media (min-width: $desktop-start) and (max-width: $desktop-end) {
+  .component-1 {
+    width: 1400px;
+    height: 490px;
+    background-color: $color-3;
+
+    .container-11 {
+      width: 500px;
+      height: 425px;
+      background-color: $color-1;
+      margin-left: 200px;
+      flex-direction: column;
+
+      
+
+      .E-and-exhibition {
+        justify-content: flex-start;
+
+        .exhibition {
+          font-size: 18px;
+        }
+
+        .letter-E {
+          font-size: 25px;
+        }
+      }
+
+      .next {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .container-12 {
+      height: 65px;
+      width: 1120px;
+      background-color: $color-5;
+      margin-top: 420px;
+    }
+  }
+
+  .component-2 {
+    width: 1400px;
+
+    .overview {
+      font-size: 30px;
+    }
+  }
 }

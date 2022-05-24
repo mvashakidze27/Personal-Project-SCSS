@@ -1,4 +1,27 @@
 .exhibition{
     font-family: $Montserrat-font;
-    font-size: 18px;
+    color: $color-4;
+}
+
+.letter-E{
+    font-family: $Montserrat-font;
+    border: solid 1px $color-4;
+    color: $color-4;
+}
+
+.photography{
+    font-family: $Montserrat-font;
+    color: $color-4;
+    background-color: $color-5;
+    font-size: 10px;
+}
+
+.overview{
+    font-family: $Montserrat-font;
+    color: $color-7;
+    font-weight: 700;
+}
+
+.paragraph-21, .paragraph-22, .paragraph-23, .paragraph-24 {
+    font-family: 'Open Sans', sans-serif;
 }
