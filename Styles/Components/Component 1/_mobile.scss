@@ -1,11 +1,51 @@
-@media (min-width:$mobile-start) and (max-width:$mobile-end){
+@media (min-width: $mobile-start) and (max-width: $mobile-end) {
+  .component-1 {
+    width: 320px;
+    height: 485px;
+    background-color: $color-3;
 
-}
+    .container-11 {
+      width: 270px;
+      height: 422px;
+      background-color: $color-1;
+      margin-left: 25px;
+      flex-direction: column;
 
-.exhibition{
-    font-size: 14px;
-}
+      .E-and-exhibition {
+        justify-content: flex-start;
 
-.overview{
-    font-size: 24px;
+        .exhibition {
+          font-size: 14px;
+        }
+
+        .letter-E {
+          margin-top: 35px;
+          font-size: 30px;
+        }
+      }
+
+      .shadows {
+        font-size: 14px;
+      }
+
+      .admission {
+        font-size: 16px;
+      }
+    }
+
+    .container-12 {
+      height: 65px;
+      width: 1120px;
+      background-color: $color-5;
+      margin-top: 420px;
+    }
+  }
+
+  .component-2 {
+    width: 320px;
+
+    .overview {
+      font-size: 24px;
+    }
+  }
 }

@@ -58,8 +58,8 @@ table {
     background-color: #EEEEEE;
   }
   .component-1 .container-11 {
-    width: 500px;
-    height: 425px;
+    width: 496px;
+    height: 422px;
     background-color: #ED1C24;
     margin-left: 200px;
     flex-direction: column;
@@ -73,9 +73,11 @@ table {
   .component-1 .container-11 .E-and-exhibition .letter-E {
     font-size: 25px;
   }
-  .component-1 .container-11 .next {
-    width: 20px;
-    height: 20px;
+  .component-1 .container-11 .shadows {
+    font-size: 16px;
+  }
+  .component-1 .container-11 .admission {
+    font-size: 18px;
   }
   .component-1 .container-12 {
     height: 65px;
@@ -91,17 +93,53 @@ table {
     font-size: 30px;
   }
 }
-.exhibition {
-  font-size: 14px;
-}
+@media (min-width: 320px) and (max-width: 767px) {
+  .component-1 {
+    width: 320px;
+    height: 485px;
+    background-color: #EEEEEE;
+  }
+  .component-1 .container-11 {
+    width: 270px;
+    height: 422px;
+    background-color: #ED1C24;
+    margin-left: 25px;
+    flex-direction: column;
+  }
+  .component-1 .container-11 .E-and-exhibition {
+    justify-content: flex-start;
+  }
+  .component-1 .container-11 .E-and-exhibition .exhibition {
+    font-size: 14px;
+  }
+  .component-1 .container-11 .E-and-exhibition .letter-E {
+    margin-top: 35px;
+    font-size: 30px;
+  }
+  .component-1 .container-11 .shadows {
+    font-size: 14px;
+  }
+  .component-1 .container-11 .admission {
+    font-size: 16px;
+  }
+  .component-1 .container-12 {
+    height: 65px;
+    width: 1120px;
+    background-color: #111111;
+    margin-top: 420px;
+  }
 
-.overview {
-  font-size: 24px;
+  .component-2 {
+    width: 320px;
+  }
+  .component-2 .overview {
+    font-size: 24px;
+  }
 }
-
 .exhibition {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
+  font-weight: 700;
 }
 
 .letter-E {
@@ -114,7 +152,49 @@ table {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   background-color: #111111;
+  width: fit-content;
   font-size: 10px;
+}
+
+.John {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.shadows {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.september {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+
+.admission {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+
+.icons-1 {
+  border: solid 1px;
+  opacity: 30%;
+  height: 45px;
+  border-width: 135px;
+}
+
+.next {
+  width: 21px;
+  height: 21px;
+}
+
+.menu {
+  height: 60px;
+  width: 60px;
 }
 
 .overview {
@@ -123,21 +203,55 @@ table {
   font-weight: 700;
 }
 
-.paragraph-21, .paragraph-22, .paragraph-23, .paragraph-24 {
+.paragraph-21,
+.paragraph-22,
+.paragraph-23,
+.paragraph-24 {
   font-family: "Open Sans", sans-serif;
 }
 
-.exhibition {
-  font-size: 18px;
-}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .component-1 {
+    width: 770px;
+    height: 485px;
+    background-color: #EEEEEE;
+  }
+  .component-1 .container-11 {
+    width: 345px;
+    height: 422px;
+    background-color: #ED1C24;
+    margin-left: 40px;
+    flex-direction: column;
+  }
+  .component-1 .container-11 .E-and-exhibition {
+    justify-content: flex-start;
+  }
+  .component-1 .container-11 .E-and-exhibition .exhibition {
+    font-size: 18px;
+  }
+  .component-1 .container-11 .E-and-exhibition .letter-E {
+    margin-top: 35px;
+    font-size: 30px;
+  }
+  .component-1 .container-11 .shadows {
+    font-size: 16px;
+  }
+  .component-1 .container-11 .admission {
+    font-size: 18px;
+  }
+  .component-1 .container-12 {
+    height: 65px;
+    width: 1120px;
+    background-color: #111111;
+    margin-top: 420px;
+  }
 
-.overview {
-  font-size: 30px;
-}
-
-.letter-E {
-  margin-top: 35px;
-  font-size: 30px;
+  .component-2 {
+    width: 770px;
+  }
+  .component-2 .overview {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

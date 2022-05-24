@@ -5,13 +5,11 @@
     background-color: $color-3;
 
     .container-11 {
-      width: 500px;
-      height: 425px;
+      width: 496px;
+      height: 422px;
       background-color: $color-1;
       margin-left: 200px;
       flex-direction: column;
-
-      
 
       .E-and-exhibition {
         justify-content: flex-start;
@@ -25,9 +23,12 @@
         }
       }
 
-      .next {
-        width: 20px;
-        height: 20px;
+      .shadows {
+        font-size: 16px;
+      }
+
+      .admission {
+        font-size: 18px;
       }
     }
 

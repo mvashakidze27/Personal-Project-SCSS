@@ -1,16 +1,51 @@
-@media (min-width:$tablet-start) and (max-width:$tablet-end){
+@media (min-width: $tablet-start) and (max-width: $tablet-end) {
+  .component-1 {
+    width: 770px;
+    height: 485px;
+    background-color: $color-3;
 
-}
+    .container-11 {
+      width: 345px;
+      height: 422px;
+      background-color: $color-1;
+      margin-left: 40px;
+      flex-direction: column;
 
-.exhibition{
-    font-size: 18px;
-}
+      .E-and-exhibition {
+        justify-content: flex-start;
 
-.overview{
-    font-size: 30px;
-}
+        .exhibition {
+          font-size: 18px;
+        }
 
-.letter-E {
-    margin-top: 35px;
-    font-size: 30px;
+        .letter-E {
+          margin-top: 35px;
+          font-size: 30px;
+        }
+      }
+
+      .shadows {
+        font-size: 16px;
+      }
+
+      .admission {
+        font-size: 18px;
+      }
+    }
+
+    .container-12 {
+      height: 65px;
+      width: 1120px;
+      background-color: $color-5;
+      margin-top: 420px;
+    }
   }
+
+  .component-2 {
+    width: 770px;
+
+    .overview {
+      font-size: 30px;
+    }
+  }
+}
