@@ -1,4 +1,6 @@
-.component-1 {
+.container-11 {
+  position: relative;
+
   .exhibition {
     font-family: $Montserrat-font;
     color: $color-4;
@@ -7,8 +9,11 @@
 
   .letter-E {
     font-family: $Montserrat-font;
-    border: solid 1px $color-4;
+    border: solid 3px $color-4;
     color: $color-4;
+    font-weight: 700;
+    padding: 5px 9px 5px 9px;
+    
   }
 
   .photography {
@@ -17,6 +22,7 @@
     background-color: $color-5;
     width: fit-content;
     font-size: 10px;
+    padding: 6px 5px 6px 5px;
   }
 
   .John {
@@ -34,48 +40,82 @@
   }
 
   .september {
-    font-family: "Open Sans", sans-serif;
+    font-family: $Opensans-font;
     color: $color-4;
   }
-
   .admission {
     font-family: $Montserrat-font;
     color: $color-4;
   }
 
   .icons-1 {
-    opacity: 30%;
     height: 45px;
-    border-width: 135px;
+    width: 135px;
+    border: solid 1px;
+    border-color: adjust-hue($color: $color-4, $degrees: 30);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    
+
+    .eye-border {
+      height: 45px;
+      width: 45px;
+      border-right: solid 1px;
+      border-color: adjust-hue($color: $color-4, $degrees: 30);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-border {
+      height: 45px;
+      width: 45px;
+      border-right: solid 1px;
+      border-color: adjust-hue($color: $color-4, $degrees: 30);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .marker-border{
+      width: 45px;
+      justify-content: center;
+      align-items: center;
+    }
 
     .eye:hover {
-      color: $color-5;
+      filter: brightness(0%);
     }
 
     .image:hover {
-      color: $color-5;
+      filter: brightness(0%);
     }
 
     .marker:hover {
-      color: $color-5;
+      filter: brightness(0%);
     }
+  }
+
+  .menu {
+    height: 60px;
+    width: 60px;
+    position: absolute;
   }
 
   .next {
     width: 21px;
     height: 21px;
   }
+}
 
-  .menu {
-    height: 60px;
-    width: 60px;
-  }
+.left:hover {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+    saturate(600%) contrast(0.8);
+}
 
-  .left:hover {
-    color: $color-1;
-  }
-
-  .right:hover {
-    color: $color-1;
-  }
+.right:hover {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+    saturate(600%) contrast(0.8);
 }

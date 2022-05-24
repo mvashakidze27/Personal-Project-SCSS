@@ -1,6 +1,6 @@
 @media (min-width: $mobile-start) and (max-width: $mobile-end) {
   .component-1 {
-    width: 320px;
+    width: 100%;
     height: 485px;
     background-color: $color-9;
 
@@ -30,6 +30,10 @@
 
       .admission {
         font-size: 16px;
+      }
+
+      .menu {
+        right: 0;
       }
     }
 
