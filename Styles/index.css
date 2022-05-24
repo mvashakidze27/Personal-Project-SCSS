@@ -51,222 +51,211 @@ table {
   display: flex;
 }
 
-.container-11 {
-  position: relative;
+.container-main {
+  width: 1000px;
 }
-.container-11 .exhibition {
+
+.center {
+  justify-content: center;
+}
+
+.component-1 {
+  width: 100%;
+  height: 483px;
+  background-color: #DBDBDB;
+}
+.component-1 .container-main {
+  flex-direction: column;
+  height: 100%;
+}
+.component-1 .container-main .container-11 {
+  position: relative;
+  height: 422px;
+  background-color: #ED1C24;
+  flex-direction: column;
+}
+.component-1 .container-main .container-11 .E-and-exhibition {
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 31px;
+  margin-bottom: 46px;
+}
+.component-1 .container-main .container-11 .E-and-exhibition .exhibition {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   font-weight: 700;
 }
-.container-11 .letter-E {
+.component-1 .container-main .container-11 .E-and-exhibition .letter-E {
   font-family: "Montserrat", sans-serif;
   border: solid 3px #FFFFFF;
   color: #FFFFFF;
   font-weight: 700;
-  padding: 5px 9px 5px 9px;
+  padding: 0px 10px 4px 10px;
+  font-size: 30px;
+  margin-right: 9px;
 }
-.container-11 .photography {
+.component-1 .container-main .container-11 .photography {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   background-color: #111111;
   width: fit-content;
   font-size: 10px;
-  padding: 6px 5px 6px 5px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 38px;
+  margin-bottom: 8px;
 }
-.container-11 .John {
+.component-1 .container-main .container-11 .John {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: #FFFFFF;
+  margin-left: 35px;
 }
-.container-11 .shadows {
+.component-1 .container-main .container-11 .shadows {
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 700;
   color: #FFFFFF;
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+  border-color: white;
+  width: 80%;
+  margin-left: 35px;
+  margin-bottom: 14px;
 }
-.container-11 .september {
+.component-1 .container-main .container-11 .september {
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
+  width: 62%;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  margin-left: 35px;
 }
-.container-11 .admission {
+.component-1 .container-main .container-11 .next-and-admission {
+  border-top: 1px solid white;
+  width: 80%;
+  margin-left: 34px;
+  padding-top: 20px;
+}
+.component-1 .container-main .container-11 .next-and-admission .next {
+  margin-right: 7px;
+}
+.component-1 .container-main .container-11 .next-and-admission .admission {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
 }
-.container-11 .icons-1 {
-  height: 45px;
-  width: 135px;
+.component-1 .container-main .container-11 .icons-1 {
+  height: 40px;
+  width: 128px;
   border: solid 1px;
   border-color: white;
-  justify-content: center;
   align-items: center;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-.container-11 .icons-1 .eye-border {
-  height: 45px;
+.component-1 .container-main .container-11 .icons-1 .eye-border,
+.component-1 .container-main .container-11 .icons-1 .image-border {
+  height: 40px;
   width: 45px;
   border-right: solid 1px;
   border-color: white;
-  justify-content: center;
   align-items: center;
 }
-.container-11 .icons-1 .image-border {
-  height: 45px;
+.component-1 .container-main .container-11 .icons-1 .marker-border {
   width: 45px;
-  border-right: solid 1px;
-  border-color: white;
-  justify-content: center;
   align-items: center;
 }
-.container-11 .icons-1 .marker-border {
-  width: 45px;
-  justify-content: center;
-  align-items: center;
-}
-.container-11 .icons-1 .eye:hover {
+.component-1 .container-main .container-11 .icons-1 .eye:hover,
+.component-1 .container-main .container-11 .icons-1 .image:hover,
+.component-1 .container-main .container-11 .icons-1 .marker:hover {
   filter: brightness(0%);
 }
-.container-11 .icons-1 .image:hover {
-  filter: brightness(0%);
-}
-.container-11 .icons-1 .marker:hover {
-  filter: brightness(0%);
-}
-.container-11 .menu {
+.component-1 .container-main .container-11 .menu {
   height: 60px;
   width: 60px;
   position: absolute;
 }
-.container-11 .next {
+.component-1 .container-main .container-11 .next {
   width: 21px;
   height: 21px;
 }
-
-.left:hover {
+.component-1 .container-main .container-12 {
+  height: 61px;
+  background-color: #111111;
+  margin-left: 350px;
+  width: 100%;
+}
+.component-1 .container-main .container-12 .left-right {
+  justify-content: flex-end;
+  width: 650px;
+}
+.component-1 .container-main .container-12 .left-right .left,
+.component-1 .container-main .container-12 .left-right .right {
+  width: 14px;
+  height: 23px;
+  border: solid 1px;
+  border-color: white;
+  align-items: center;
+  padding: 18px 20px 18px 20px;
+}
+.component-1 .container-main .container-12 .left-right .left:hover,
+.component-1 .container-main .container-12 .left-right .right:hover {
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
 }
 
-.right:hover {
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+.container-11 {
+  width: 350px;
+}
+.container-11 .exhibition {
+  font-size: 18px;
+}
+.container-11 .admission {
+  font-size: 18px;
+}
+.container-11 .menu {
+  right: -60px;
 }
 
-@media (min-width: 1024px) and (max-width: 1920px) {
-  .component-1 {
-    width: 100%;
-    height: 490px;
-    background-color: #DBDBDB;
-  }
-  .component-1 .container-11 {
-    width: 350px;
-    height: 422px;
-    background-color: #ED1C24;
-    margin-left: 200px;
-    flex-direction: column;
-  }
-  .component-1 .container-11 .E-and-exhibition {
-    justify-content: flex-start;
-    margin-top: 27px;
-    margin-left: 32px;
-    margin-bottom: 48px;
-  }
-  .component-1 .container-11 .E-and-exhibition .exhibition {
-    font-size: 18px;
-  }
-  .component-1 .container-11 .E-and-exhibition .letter-E {
-    font-size: 30px;
-    margin-right: 8px;
-  }
-  .component-1 .container-11 .shadows {
-    font-size: 16px;
-  }
-  .component-1 .container-11 .admission {
-    font-size: 18px;
-  }
-  .component-1 .container-11 .menu {
-    right: -60px;
-  }
-  .component-1 .container-12 {
-    height: 65px;
-    width: 1120px;
-    background-color: #111111;
-    margin-top: 420px;
-  }
-}
 @media (min-width: 320px) and (max-width: 767px) {
-  .component-1 {
-    width: 100%;
-    height: 485px;
-    background-color: #DBDBDB;
-  }
-  .component-1 .container-11 {
+  .container-11 {
     width: 270px;
-    height: 422px;
-    background-color: #ED1C24;
     margin-left: 25px;
-    flex-direction: column;
   }
-  .component-1 .container-11 .E-and-exhibition {
-    justify-content: flex-start;
-  }
-  .component-1 .container-11 .E-and-exhibition .exhibition {
+  .container-11 .E-and-exhibition .exhibition {
     font-size: 14px;
   }
-  .component-1 .container-11 .E-and-exhibition .letter-E {
+  .container-11 .E-and-exhibition .letter-E {
     margin-top: 35px;
     font-size: 30px;
   }
-  .component-1 .container-11 .shadows {
-    font-size: 14px;
-  }
-  .component-1 .container-11 .admission {
+  .container-11 .admission {
     font-size: 16px;
   }
-  .component-1 .container-11 .menu {
+  .container-11 .menu {
     right: 0;
-  }
-  .component-1 .container-12 {
-    height: 65px;
-    width: 1120px;
-    background-color: #111111;
-    margin-top: 420px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .component-1 {
-    width: 100%;
-    height: 485px;
-    background-color: #DBDBDB;
-  }
-  .component-1 .container-11 {
+  .container-11 {
     width: 345px;
-    height: 422px;
-    background-color: #ED1C24;
     margin-left: 40px;
-    flex-direction: column;
   }
-  .component-1 .container-11 .E-and-exhibition {
-    justify-content: flex-start;
-  }
-  .component-1 .container-11 .E-and-exhibition .exhibition {
+  .container-11 .E-and-exhibition .exhibition {
     font-size: 18px;
   }
-  .component-1 .container-11 .E-and-exhibition .letter-E {
+  .container-11 .E-and-exhibition .letter-E {
     margin-top: 35px;
     font-size: 30px;
   }
-  .component-1 .container-11 .shadows {
-    font-size: 16px;
-  }
-  .component-1 .container-11 .admission {
+  .container-11 .admission {
     font-size: 18px;
   }
-  .component-1 .container-11 .menu {
+  .container-11 .menu {
     right: -60px;
   }
-  .component-1 .container-12 {
+
+  .container-12 {
     height: 65px;
     width: 1120px;
     background-color: #111111;

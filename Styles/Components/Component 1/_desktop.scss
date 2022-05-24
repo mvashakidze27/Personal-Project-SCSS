@@ -1,60 +1,16 @@
-@media (min-width: $desktop-start) and (max-width: $desktop-end) {
-  .component-1 {
-    width: 100%;
-    height: 490px;
-    background-color: $color-9;
+.container-11 {
+  width: 350px;
 
-    .container-11 {
-      width: 350px;
-      height: 422px;
-      background-color: $color-1;
-      margin-left: 200px;
-      flex-direction: column;
+  .exhibition {
+    font-size: 18px;
+  }
 
-      .E-and-exhibition {
-        justify-content: flex-start;
-        margin-top: 27px;
-        margin-left: 32px;
-        margin-bottom: 48px;
 
-        .exhibition {
-          font-size: 18px;
-        }
+  .admission {
+    font-size: 18px;
+  }
 
-        .letter-E {
-          font-size: 30px;
-          margin-right: 8px;
-        }
-      }
-
-      .photography {
-        margin-left: 38px;
-      }
-
-      .John {
-        margin-left: 35px;
-      }
-
-      .shadows {
-        font-size: 16px;
-        margin-left: 35px;
-      }
-
-      .admission {
-        font-size: 18px;
-        margin-left: 35px;
-      }
-
-      .menu {
-        right: -60px;
-      }
-    }
-
-    .container-12 {
-      height: 65px;
-      width: 1120px;
-      background-color: $color-5;
-      margin-top: 420px;
-    }
+  .menu {
+    right: -60px;
   }
 }

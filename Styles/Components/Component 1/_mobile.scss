@@ -1,47 +1,26 @@
 @media (min-width: $mobile-start) and (max-width: $mobile-end) {
-  .component-1 {
-    width: 100%;
-    height: 485px;
-    background-color: $color-9;
+  .container-11 {
+    width: 270px;
+    margin-left: 25px;
 
-    .container-11 {
-      width: 270px;
-      height: 422px;
-      background-color: $color-1;
-      margin-left: 25px;
-      flex-direction: column;
-
-      .E-and-exhibition {
-        justify-content: flex-start;
-
-        .exhibition {
-          font-size: 14px;
-        }
-
-        .letter-E {
-          margin-top: 35px;
-          font-size: 30px;
-        }
-      }
-
-      .shadows {
+    .E-and-exhibition {
+      .exhibition {
         font-size: 14px;
       }
 
-      .admission {
-        font-size: 16px;
-      }
-
-      .menu {
-        right: 0;
+      .letter-E {
+        margin-top: 35px;
+        font-size: 30px;
       }
     }
 
-    .container-12 {
-      height: 65px;
-      width: 1120px;
-      background-color: $color-5;
-      margin-top: 420px;
+
+    .admission {
+      font-size: 16px;
+    }
+
+    .menu {
+      right: 0;
     }
   }
 }
