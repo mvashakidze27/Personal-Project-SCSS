@@ -15,6 +15,30 @@
       .paragraph-21 {
         font-size: 20px;
       }
+      .overview {
+        font-size: 30px;
+        padding-top: 43px;
+        margin-bottom: 45px;
+      }
+
+      .paragraph-21 {
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 33px;
+      }
+      .column-21 {
+        width: fit-content;
+        margin-bottom: 38px;
+
+        .paragraph-22 {
+          width: 255px;
+          margin-right: 41px;
+        }
+
+        .paragraph-23 {
+          width: 300px;
+        }
+      }
     }
   }
 }

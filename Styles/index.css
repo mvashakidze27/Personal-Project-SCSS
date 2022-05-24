@@ -71,10 +71,7 @@ table {
   flex-direction: column;
 }
 .component-1 .container-main .container-11 .E-and-exhibition {
-  justify-content: flex-start;
   margin-top: 30px;
-  margin-left: 31px;
-  margin-bottom: 46px;
 }
 .component-1 .container-main .container-11 .E-and-exhibition .exhibition {
   font-family: "Montserrat", sans-serif;
@@ -86,9 +83,7 @@ table {
   border: solid 3px #FFFFFF;
   color: #FFFFFF;
   font-weight: 700;
-  padding: 0px 10px 4px 10px;
   font-size: 30px;
-  margin-right: 9px;
 }
 .component-1 .container-main .container-11 .photography {
   font-family: "Montserrat", sans-serif;
@@ -124,14 +119,14 @@ table {
   color: #FFFFFF;
   width: 62%;
   padding-top: 5px;
-  padding-bottom: 25px;
   margin-left: 35px;
+  line-height: 18px;
 }
 .component-1 .container-main .container-11 .next-and-admission {
   border-top: 1px solid white;
   width: 80%;
   margin-left: 34px;
-  padding-top: 20px;
+  padding-top: 19px;
 }
 .component-1 .container-main .container-11 .next-and-admission .next {
   margin-right: 7px;
@@ -148,7 +143,6 @@ table {
   align-items: center;
   position: absolute;
   bottom: 0;
-  right: 0;
 }
 .component-1 .container-main .container-11 .icons-1 .eye-border,
 .component-1 .container-main .container-11 .icons-1 .image-border {
@@ -181,23 +175,6 @@ table {
   background-color: #111111;
   width: 100%;
 }
-.component-1 .container-main .container-12 .left-right {
-  justify-content: flex-end;
-  width: 650px;
-}
-.component-1 .container-main .container-12 .left-right .left,
-.component-1 .container-main .container-12 .left-right .right {
-  width: 14px;
-  height: 23px;
-  border: solid 1px;
-  border-color: white;
-  align-items: center;
-  padding: 18px 20px 18px 20px;
-}
-.component-1 .container-main .container-12 .left-right .left:hover,
-.component-1 .container-main .container-12 .left-right .right:hover {
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
-}
 
 @media (min-width: 1024px) and (max-width: 1920px) {
   .component-1 {
@@ -209,8 +186,20 @@ table {
   .component-1 .container-11 {
     width: 350px;
   }
-  .component-1 .container-11 .exhibition {
+  .component-1 .container-11 .E-and-exhibition {
+    justify-content: flex-start;
+    margin-left: 31px;
+    margin-bottom: 46px;
+  }
+  .component-1 .container-11 .E-and-exhibition .exhibition {
     font-size: 18px;
+  }
+  .component-1 .container-11 .E-and-exhibition .letter-E {
+    padding: 0px 10px 4px 10px;
+    margin-right: 9px;
+  }
+  .component-1 .container-11 .september {
+    padding-bottom: 23px;
   }
   .component-1 .container-11 .admission {
     font-size: 18px;
@@ -218,8 +207,28 @@ table {
   .component-1 .container-11 .menu {
     right: -60px;
   }
+  .component-1 .container-11 .icons-1 {
+    right: 0;
+  }
   .component-1 .container-12 {
     margin-left: 350px;
+  }
+  .component-1 .container-12 .left-right {
+    justify-content: flex-end;
+    width: 650px;
+  }
+  .component-1 .container-12 .left-right .left,
+.component-1 .container-12 .left-right .right {
+    width: 14px;
+    height: 23px;
+    border: solid 1px;
+    border-color: white;
+    align-items: center;
+    padding: 18px 20px 18px 20px;
+  }
+  .component-1 .container-12 .left-right .left:hover,
+.component-1 .container-12 .left-right .right:hover {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -227,35 +236,83 @@ table {
     width: 270px;
     margin-left: 25px;
   }
+  .container-11 .E-and-exhibition {
+    margin-left: 27px;
+    margin-bottom: 55px;
+  }
   .container-11 .E-and-exhibition .exhibition {
     font-size: 14px;
   }
   .container-11 .E-and-exhibition .letter-E {
-    font-size: 30px;
+    padding: 0px 5px 0px 5px;
+    margin-right: 7px;
+  }
+  .container-11 .september {
+    padding-bottom: 3px;
   }
   .container-11 .admission {
     font-size: 16px;
   }
   .container-11 .menu {
-    right: 0;
+    right: 3px;
+    top: 14px;
+  }
+  .container-11 .icons-1 {
+    margin-left: 70px;
+  }
+
+  .left,
+.right {
+    z-index: -1;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .container-11 {
+  .container-main {
+    width: 100%;
+  }
+  .container-main .container-11 {
     width: 345px;
     margin-left: 40px;
   }
-  .container-11 .exhibition {
+  .container-main .container-11 .E-and-exhibition {
+    justify-content: flex-start;
+    margin-left: 31px;
+    margin-bottom: 46px;
+  }
+  .container-main .container-11 .E-and-exhibition .exhibition {
     font-size: 18px;
   }
-  .container-11 .letter-E {
-    font-size: 30px;
+  .container-main .container-11 .E-and-exhibition .letter-E {
+    padding: 0px 10px 4px 10px;
+    margin-right: 9px;
   }
-  .container-11 .admission {
+  .container-main .container-11 .september {
+    padding-bottom: 23px;
+  }
+  .container-main .container-11 .admission {
     font-size: 18px;
   }
-  .container-11 .menu {
+  .container-main .container-11 .menu {
     right: -60px;
+  }
+  .container-main .container-11 .icons-1 {
+    right: 0;
+  }
+  .container-main .left-right {
+    margin-left: 617px;
+  }
+  .container-main .left-right .left,
+.container-main .left-right .right {
+    width: 14px;
+    height: 23px;
+    border: solid 1px;
+    border-color: white;
+    align-items: center;
+    padding: 18px 20px 18px 20px;
+  }
+  .container-main .left-right .left:hover,
+.container-main .left-right .right:hover {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   }
 }
 .component-2 {
@@ -263,6 +320,7 @@ table {
 }
 .component-2 .container-22 {
   background-color: #FFFFFF;
+  height: 100%;
 }
 .component-2 .container-22 .overview {
   font-family: "Montserrat", sans-serif;
@@ -279,10 +337,9 @@ table {
 .component-2 .container-22 .paragraph-23,
 .component-2 .container-22 .paragraph-24 {
   font-size: 14px;
-  line-height: 19px;
+  line-height: 18px;
 }
 .component-2 .container-22 .column-21 {
-  padding-left: 47px;
   margin-bottom: 32px;
 }
 
@@ -319,12 +376,14 @@ table {
   }
   .component-2 .container-main .container-22 .column-21 {
     width: fit-content;
+    padding-left: 47px;
+    margin-bottom: 36px;
   }
-  .component-2 .container-main .container-22 .paragraph-22 {
+  .component-2 .container-main .container-22 .column-21 .paragraph-22 {
     width: 255px;
     margin-right: 38px;
   }
-  .component-2 .container-main .container-22 .paragraph-23 {
+  .component-2 .container-main .container-22 .column-21 .paragraph-23 {
     width: 300px;
   }
   .component-2 .container-main .container-22 .paragraph-24 {
@@ -358,6 +417,27 @@ table {
   }
   .component-2 .container-22 .paragraph-21 {
     font-size: 20px;
+  }
+  .component-2 .container-22 .overview {
+    font-size: 30px;
+    padding-top: 43px;
+    margin-bottom: 45px;
+  }
+  .component-2 .container-22 .paragraph-21 {
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 33px;
+  }
+  .component-2 .container-22 .column-21 {
+    width: fit-content;
+    margin-bottom: 38px;
+  }
+  .component-2 .container-22 .column-21 .paragraph-22 {
+    width: 255px;
+    margin-right: 41px;
+  }
+  .component-2 .container-22 .column-21 .paragraph-23 {
+    width: 300px;
   }
 }
 .component-3 {

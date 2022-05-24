@@ -9,8 +9,23 @@
     .container-11 {
       width: 350px;
 
-      .exhibition {
-        font-size: 18px;
+      .E-and-exhibition {
+        justify-content: flex-start;
+        margin-left: 31px;
+        margin-bottom: 46px;
+
+        .exhibition {
+          font-size: 18px;
+        }
+
+        .letter-E {
+          padding: 0px 10px 4px 10px;
+          margin-right: 9px;
+        }
+      }
+
+      .september {
+        padding-bottom: 23px;
       }
 
       .admission {
@@ -20,9 +35,34 @@
       .menu {
         right: -60px;
       }
+
+      .icons-1 {
+        right: 0;
+      }
     }
     .container-12 {
       margin-left: 350px;
+
+      .left-right {
+        justify-content: flex-end;
+        width: 650px;
+
+        .left,
+        .right {
+          width: 14px;
+          height: 23px;
+          border: solid 1px;
+          border-color: adjust-hue($color: $color-4, $degrees: 30);
+          align-items: center;
+          padding: 18px 20px 18px 20px;
+        }
+
+        .left:hover,
+        .right:hover {
+          filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+            saturate(600%) contrast(0.8);
+        }
+      }
     }
   }
 }

@@ -14,10 +14,7 @@
       flex-direction: column;
 
       .E-and-exhibition {
-        justify-content: flex-start;
         margin-top: 30px;
-        margin-left: 31px;
-        margin-bottom: 46px;
 
         .exhibition {
           font-family: $Montserrat-font;
@@ -30,9 +27,7 @@
           border: solid 3px $color-4;
           color: $color-4;
           font-weight: 700;
-          padding: 0px 10px 4px 10px;
           font-size: 30px;
-          margin-right: 9px;
         }
       }
 
@@ -72,16 +67,16 @@
         font-family: $Opensans-font;
         color: $color-4;
         width: 62%;
-        padding-top: 5px;
-        padding-bottom: 25px;
+        padding-top: 5px;        
         margin-left: 35px;
+        line-height: 18px;
       }
 
       .next-and-admission {
         border-top: 1px solid white;
         width: 80%;
         margin-left: 34px;
-        padding-top: 20px;
+        padding-top: 19px;
 
         .next {
           margin-right: 7px;
@@ -101,7 +96,7 @@
         align-items: center;
         position: absolute;
         bottom: 0;
-        right: 0;
+        
 
         .eye-border,
         .image-border {
@@ -140,27 +135,6 @@
       height: 61px;
       background-color: $color-5;
       width: 100%;
-
-      .left-right {
-        justify-content: flex-end;
-        width: 650px;
-
-        .left,
-        .right {
-          width: 14px;
-          height: 23px;
-          border: solid 1px;
-          border-color: adjust-hue($color: $color-4, $degrees: 30);
-          align-items: center;
-          padding: 18px 20px 18px 20px;
-        }
-
-        .left:hover,
-        .right:hover {
-          filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
-            saturate(600%) contrast(0.8);
-        }
-      }
     }
   }
 }

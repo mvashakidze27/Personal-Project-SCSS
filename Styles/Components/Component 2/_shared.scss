@@ -3,6 +3,7 @@
 
   .container-22 {
     background-color: $color-4;
+    height: 100%;
 
     .overview {
       font-family: $Montserrat-font;
@@ -21,11 +22,10 @@
     .paragraph-23,
     .paragraph-24 {
       font-size: 14px;
-      line-height: 19px;
+      line-height: 18px;
     }
 
     .column-21 {
-      padding-left: 47px;
       margin-bottom: 32px;
     }
   }

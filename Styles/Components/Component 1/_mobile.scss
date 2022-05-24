@@ -4,22 +4,39 @@
     margin-left: 25px;
 
     .E-and-exhibition {
+      margin-left: 27px;
+      margin-bottom: 55px;
+
       .exhibition {
         font-size: 14px;
       }
 
       .letter-E {
-        font-size: 30px;
+        padding: 0px 5px 0px 5px;
+        margin-right: 7px;
       }
     }
 
+    .september {
+      padding-bottom: 3px;
+    }
 
     .admission {
       font-size: 16px;
     }
 
     .menu {
-      right: 0;
+      right: 3px;
+      top: 14px;
     }
+
+    .icons-1 {
+      margin-left: 70px;
+    }
+  }
+
+  .left,
+  .right {
+    z-index: -1;
   }
 }
