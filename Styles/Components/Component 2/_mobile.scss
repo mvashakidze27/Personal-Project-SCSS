@@ -1,0 +1,13 @@
+@media (min-width: $mobile-start) and (max-width: $mobile-end) {
+  .component-2 {
+    width: 320px;
+
+    .overview {
+      font-size: 24px;
+    }
+
+    .column-21 {
+      flex-direction: column;
+    }
+  }
+}

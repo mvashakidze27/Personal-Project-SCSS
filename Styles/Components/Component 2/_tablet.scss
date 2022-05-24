@@ -1,0 +1,20 @@
+@media (min-width: $tablet-start) and (max-width: $tablet-end) {
+  .component-2 {
+    width: 770px;
+    height: 470px;
+    background-color: $color-4;
+
+    .container-22 {
+      width: 590px;
+      height: 370px;
+
+      .overview {
+        font-size: 30px;
+      }
+
+      .paragraph-21 {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@media (min-width: $tablet-start) and (max-width: $tablet-end) {
+  .component-3 {
+    height: 570px;
+    width: 770px;
+
+    .gallery {
+      font-size: 30px;
+    }
+  }
+}

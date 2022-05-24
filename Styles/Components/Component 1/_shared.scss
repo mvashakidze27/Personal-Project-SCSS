@@ -79,38 +79,3 @@
     color: $color-1;
   }
 }
-
-.component-2 {
-  .container-22 {
-    background-color: $color-4;
-
-    .overview {
-      font-family: $Montserrat-font;
-      color: $color-7;
-      font-weight: 700;
-    }
-
-    .paragraph-21,
-    .paragraph-22,
-    .paragraph-23,
-    .paragraph-24 {
-      font-family: "Open Sans", sans-serif;
-    }
-
-    .paragraph-22,
-    .paragraph-23,
-    .paragraph-24 {
-      font-size: 14px;
-    }
-  }
-}
-
-.component-3 {
-  background-color: $color-5;
-
-  .gallery {
-    font-family: $Montserrat-font;
-    font-weight: 700;
-    color: $color-4;
-  }
-}
