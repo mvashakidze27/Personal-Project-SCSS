@@ -2,7 +2,7 @@
   .component-1 {
     width: 320px;
     height: 485px;
-    background-color: $color-3;
+    background-color: $color-9;
 
     .container-11 {
       width: 270px;
@@ -45,6 +45,19 @@
     width: 320px;
 
     .overview {
+      font-size: 24px;
+    }
+
+    .column-21 {
+      flex-direction: column;
+    }
+  }
+
+  .component-3 {
+    height: 365px;
+    width: 320px;
+
+    .gallery{
       font-size: 24px;
     }
   }

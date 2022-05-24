@@ -55,7 +55,7 @@ table {
   .component-1 {
     width: 1400px;
     height: 490px;
-    background-color: #EEEEEE;
+    background-color: #DBDBDB;
   }
   .component-1 .container-11 {
     width: 496px;
@@ -88,8 +88,31 @@ table {
 
   .component-2 {
     width: 1400px;
+    height: 525px;
+    background-color: #DBDBDB;
   }
-  .component-2 .overview {
+  .component-2 .container-21 {
+    background-color: #898989;
+    width: 25%;
+    height: 100%;
+    margin-left: 200px;
+  }
+  .component-2 .container-22 {
+    width: 600px;
+    height: 380px;
+  }
+  .component-2 .container-22 .overview {
+    font-size: 30px;
+  }
+  .component-2 .container-22 .paragraph-21 {
+    font-size: 20px;
+  }
+
+  .component-3 {
+    height: 520px;
+    width: 1400px;
+  }
+  .component-3 .gallery {
     font-size: 30px;
   }
 }
@@ -97,7 +120,7 @@ table {
   .component-1 {
     width: 320px;
     height: 485px;
-    background-color: #EEEEEE;
+    background-color: #DBDBDB;
   }
   .component-1 .container-11 {
     width: 270px;
@@ -135,86 +158,118 @@ table {
   .component-2 .overview {
     font-size: 24px;
   }
+  .component-2 .column-21 {
+    flex-direction: column;
+  }
+
+  .component-3 {
+    height: 365px;
+    width: 320px;
+  }
+  .component-3 .gallery {
+    font-size: 24px;
+  }
 }
-.exhibition {
+.component-1 .exhibition {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   font-weight: 700;
 }
-
-.letter-E {
+.component-1 .letter-E {
   font-family: "Montserrat", sans-serif;
   border: solid 1px #FFFFFF;
   color: #FFFFFF;
 }
-
-.photography {
+.component-1 .photography {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   background-color: #111111;
   width: fit-content;
   font-size: 10px;
 }
-
-.John {
+.component-1 .John {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: #FFFFFF;
 }
-
-.shadows {
+.component-1 .shadows {
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   font-weight: 700;
   color: #FFFFFF;
 }
-
-.september {
+.component-1 .september {
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
 }
-
-.admission {
+.component-1 .admission {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
 }
-
-.icons-1 {
-  border: solid 1px;
+.component-1 .icons-1 {
   opacity: 30%;
   height: 45px;
   border-width: 135px;
 }
-
-.next {
+.component-1 .icons-1 .eye:hover {
+  color: #111111;
+}
+.component-1 .icons-1 .image:hover {
+  color: #111111;
+}
+.component-1 .icons-1 .marker:hover {
+  color: #111111;
+}
+.component-1 .next {
   width: 21px;
   height: 21px;
 }
-
-.menu {
+.component-1 .menu {
   height: 60px;
   width: 60px;
 }
+.component-1 .left:hover {
+  color: #ED1C24;
+}
+.component-1 .right:hover {
+  color: #ED1C24;
+}
 
-.overview {
+.component-2 .container-22 {
+  background-color: #FFFFFF;
+}
+.component-2 .container-22 .overview {
   font-family: "Montserrat", sans-serif;
   color: #222222;
   font-weight: 700;
 }
-
-.paragraph-21,
-.paragraph-22,
-.paragraph-23,
-.paragraph-24 {
+.component-2 .container-22 .paragraph-21,
+.component-2 .container-22 .paragraph-22,
+.component-2 .container-22 .paragraph-23,
+.component-2 .container-22 .paragraph-24 {
   font-family: "Open Sans", sans-serif;
+}
+.component-2 .container-22 .paragraph-22,
+.component-2 .container-22 .paragraph-23,
+.component-2 .container-22 .paragraph-24 {
+  font-size: 14px;
+}
+
+.component-3 {
+  background-color: #111111;
+}
+.component-3 .gallery {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .component-1 {
     width: 770px;
     height: 485px;
-    background-color: #EEEEEE;
+    background-color: #DBDBDB;
   }
   .component-1 .container-11 {
     width: 345px;
@@ -248,8 +303,25 @@ table {
 
   .component-2 {
     width: 770px;
+    height: 470px;
+    background-color: #FFFFFF;
   }
-  .component-2 .overview {
+  .component-2 .container-22 {
+    width: 590px;
+    height: 370px;
+  }
+  .component-2 .container-22 .overview {
+    font-size: 30px;
+  }
+  .component-2 .container-22 .paragraph-21 {
+    font-size: 20px;
+  }
+
+  .component-3 {
+    height: 570px;
+    width: 770px;
+  }
+  .component-3 .gallery {
     font-size: 30px;
   }
 }

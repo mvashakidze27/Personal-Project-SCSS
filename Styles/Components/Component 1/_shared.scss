@@ -1,73 +1,116 @@
-.exhibition {
-  font-family: $Montserrat-font;
-  color: $color-4;
-  font-weight: 700;
-}
+.component-1 {
+  .exhibition {
+    font-family: $Montserrat-font;
+    color: $color-4;
+    font-weight: 700;
+  }
 
-.letter-E {
-  font-family: $Montserrat-font;
-  border: solid 1px $color-4;
-  color: $color-4;
-}
+  .letter-E {
+    font-family: $Montserrat-font;
+    border: solid 1px $color-4;
+    color: $color-4;
+  }
 
-.photography {
-  font-family: $Montserrat-font;
-  color: $color-4;
-  background-color: $color-5;
-  width: fit-content;
-  font-size: 10px;
-}
+  .photography {
+    font-family: $Montserrat-font;
+    color: $color-4;
+    background-color: $color-5;
+    width: fit-content;
+    font-size: 10px;
+  }
 
-.John {
-  font-family: $Montserrat-font;
-  font-size: 22px;
-  font-weight: 700;
-  color: $color-4;
-}
+  .John {
+    font-family: $Montserrat-font;
+    font-size: 22px;
+    font-weight: 700;
+    color: $color-4;
+  }
 
-.shadows {
-  font-family: $Montserrat-font;
-  font-size: 26px;
-  font-weight: 700;
-  color: $color-4;
-}
+  .shadows {
+    font-family: $Montserrat-font;
+    font-size: 26px;
+    font-weight: 700;
+    color: $color-4;
+  }
 
-.september {
-  font-family: "Open Sans", sans-serif;
-  color: $color-4;
-}
+  .september {
+    font-family: "Open Sans", sans-serif;
+    color: $color-4;
+  }
 
-.admission {
-  font-family: $Montserrat-font;
-  color: $color-4;
-}
+  .admission {
+    font-family: $Montserrat-font;
+    color: $color-4;
+  }
 
-.icons-1 {
-  border: solid 1px;
-  opacity: 30%;
-  height: 45px;
-  border-width: 135px;
-}
+  .icons-1 {
+    opacity: 30%;
+    height: 45px;
+    border-width: 135px;
 
-.next {
+    .eye:hover {
+      color: $color-5;
+    }
+
+    .image:hover {
+      color: $color-5;
+    }
+
+    .marker:hover {
+      color: $color-5;
+    }
+  }
+
+  .next {
     width: 21px;
     height: 21px;
   }
 
-.menu {
-  height: 60px;
-  width: 60px;
+  .menu {
+    height: 60px;
+    width: 60px;
+  }
+
+  .left:hover {
+    color: $color-1;
+  }
+
+  .right:hover {
+    color: $color-1;
+  }
 }
 
-.overview {
-  font-family: $Montserrat-font;
-  color: $color-7;
-  font-weight: 700;
+.component-2 {
+  .container-22 {
+    background-color: $color-4;
+
+    .overview {
+      font-family: $Montserrat-font;
+      color: $color-7;
+      font-weight: 700;
+    }
+
+    .paragraph-21,
+    .paragraph-22,
+    .paragraph-23,
+    .paragraph-24 {
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .paragraph-22,
+    .paragraph-23,
+    .paragraph-24 {
+      font-size: 14px;
+    }
+  }
 }
 
-.paragraph-21,
-.paragraph-22,
-.paragraph-23,
-.paragraph-24 {
-  font-family: "Open Sans", sans-serif;
+.component-3 {
+  background-color: $color-5;
+
+  .gallery {
+    font-family: $Montserrat-font;
+    font-weight: 700;
+    color: $color-4;
+  }
 }
