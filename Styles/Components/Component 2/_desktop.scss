@@ -1,26 +1,53 @@
 @media (min-width: $desktop-start) and (max-width: $desktop-end) {
   .component-2 {
-    width: 100%;
     height: 525px;
     background-color: $color-9;
+    background-image: linear-gradient(to right, $color-9, $color-4);
+    justify-content: center;
 
-    .container-21 {
-      background-color: $color-8;
-      width: 18%;
-      height: 100%;
-      margin-left: 200px;
-    }
+    .container-main {
+      width: 1000px;
 
-    .container-22 {
-      width: 600px;
-      height: 380px;
-
-      .overview {
-        font-size: 30px;
+      .container-21 {
+        background-color: $color-8;
+        width: 350px;
+        height: 100%;
       }
 
-      .paragraph-21 {
-        font-size: 20px;
+      .container-22 {
+        width: 650px;
+        height: 100%;
+
+        .overview {
+          font-size: 30px;
+          padding-top: 43px;
+          padding-left: 46px;
+          margin-bottom: 45px;
+        }
+
+        .paragraph-21 {
+          font-size: 20px;
+          padding-left: 48px;
+          line-height: 29px;
+          margin-bottom: 34px;
+        }
+        .column-21 {
+          width: fit-content;
+        }
+
+        .paragraph-22 {
+          width: 255px;
+          margin-right: 38px;
+        }
+
+        .paragraph-23 {
+          width: 300px;
+        }
+
+        .paragraph-24{
+          padding-left: 47px;
+          width: 83%;
+        }
       }
     }
   }

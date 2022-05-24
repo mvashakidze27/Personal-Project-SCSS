@@ -3,17 +3,13 @@
     width: 345px;
     margin-left: 40px;
 
-    .E-and-exhibition {
-      .exhibition {
-        font-size: 18px;
-      }
-
-      .letter-E {
-        margin-top: 35px;
-        font-size: 30px;
-      }
+    .exhibition {
+      font-size: 18px;
     }
 
+    .letter-E {
+      font-size: 30px;
+    }
 
     .admission {
       font-size: 18px;
@@ -22,12 +18,5 @@
     .menu {
       right: -60px;
     }
-  }
-
-  .container-12 {
-    height: 65px;
-    width: 1120px;
-    background-color: $color-5;
-    margin-top: 420px;
   }
 }

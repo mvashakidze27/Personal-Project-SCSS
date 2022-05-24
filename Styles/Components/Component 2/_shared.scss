@@ -1,24 +1,32 @@
 .component-2 {
-    .container-22 {
-      background-color: $color-4;
-  
-      .overview {
-        font-family: $Montserrat-font;
-        color: $color-7;
-        font-weight: 700;
-      }
-  
-      .paragraph-21,
-      .paragraph-22,
-      .paragraph-23,
-      .paragraph-24 {
-        font-family: $Opensans-font;
-      }
-  
-      .paragraph-22,
-      .paragraph-23,
-      .paragraph-24 {
-        font-size: 14px;
-      }
+  width: 100%;
+
+  .container-22 {
+    background-color: $color-4;
+
+    .overview {
+      font-family: $Montserrat-font;
+      color: $color-7;
+      font-weight: 700;
+    }
+
+    .paragraph-21,
+    .paragraph-22,
+    .paragraph-23,
+    .paragraph-24 {
+      font-family: $Opensans-font;
+    }
+
+    .paragraph-22,
+    .paragraph-23,
+    .paragraph-24 {
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    .column-21 {
+      padding-left: 47px;
+      margin-bottom: 32px;
     }
   }
+}

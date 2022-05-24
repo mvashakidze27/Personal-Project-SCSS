@@ -1,16 +1,28 @@
-.container-11 {
-  width: 350px;
+@media (min-width: $desktop-start) and (max-width: $desktop-end) {
+  .component-1 {
+    justify-content: center;
 
-  .exhibition {
-    font-size: 18px;
-  }
+    .container-main {
+      width: 1000px;
+    }
 
+    .container-11 {
+      width: 350px;
 
-  .admission {
-    font-size: 18px;
-  }
+      .exhibition {
+        font-size: 18px;
+      }
 
-  .menu {
-    right: -60px;
+      .admission {
+        font-size: 18px;
+      }
+
+      .menu {
+        right: -60px;
+      }
+    }
+    .container-12 {
+      margin-left: 350px;
+    }
   }
 }
