@@ -481,6 +481,7 @@ table {
   }
 }
 .component-3 {
+  width: 100%;
   background-color: #111111;
 }
 .component-3 .gallery {
@@ -492,16 +493,22 @@ table {
 @media (min-width: 1024px) and (max-width: 1920px) {
   .component-3 {
     height: 520px;
+  }
+  .component-3 .container-main {
     width: 100%;
   }
-  .component-3 .gallery {
+  .component-3 .container-main .gallery {
     font-size: 30px;
+  }
+  .component-3 .container-main .box-1 {
+    width: 620px;
+    height: 400px;
+    background-color: #FFFFFF;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .component-3 {
     height: 365px;
-    width: 100%;
   }
   .component-3 .gallery {
     font-size: 24px;
@@ -510,7 +517,6 @@ table {
 @media (min-width: 768px) and (max-width: 1023px) {
   .component-3 {
     height: 570px;
-    width: 100%;
   }
   .component-3 .gallery {
     font-size: 30px;
