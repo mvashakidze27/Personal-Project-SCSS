@@ -1,11 +1,30 @@
 .component-3 {
-    width: 100%;
-    background-color: $color-5;
-  
+  width: 100%;
+  background-color: $color-5;
+
+  .container-main {
+    position: relative;
+    height: 100%;
+
+    .box-1 {
+      background-color: $color-4;
+    }
+
     .gallery {
       font-family: $Montserrat-font;
       font-weight: 700;
       color: $color-4;
+      position: absolute;
+    }
+
+    .boxes {
+      div {
+        box-sizing: border-box;
+
+        &:hover {
+          border: solid 5px $color-1;
+        }
+      }
     }
   }
-  
+}
