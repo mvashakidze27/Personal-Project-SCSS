@@ -4,10 +4,45 @@
 
     .overview {
       font-size: 24px;
+      padding-top: 42px;
+      padding-left: 97px;
+      margin-bottom: 25px;
+    }
+
+    .paragraph-21 {
+      font-size: 17px;
+      width: 84%;
+      padding-left: 21px;
+      line-height: 30px;
+      margin-bottom: 22px;
+      text-decoration: underline;
+      text-align: center;
     }
 
     .column-21 {
       flex-direction: column;
+      text-align: center;
+
+      .paragraph-22 {
+        padding-left: 20px;
+        width: 87%;
+        line-height: 20px;
+        margin-bottom: 14px;
+      }
+
+      .paragraph-23 {
+        padding-left: 21px;
+        width: 87%;
+        line-height: 18px;
+        margin-bottom: -12px;
+      }
+    }
+
+    .paragraph-24 {
+      padding-left: 21px;
+      width: 87%;
+      line-height: 20px;
+      text-align: center;
     }
   }
 }
